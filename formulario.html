@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>FORMULÁRIO</title>
+    </head>
+    <body>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <br>
+                Código: <input type="text" name="codigo" style="background-color: rgb(148, 147, 147);"> <br>
+                Nome: <input type="text" name="username"> <br>
+                Senha: <input type="password" name="pwd"> <br>
+                Sexo: <input type="radio" name="masculino">Masculino
+                <input type="radio" name="feminino">Feminino
+                <input type="radio" name="outro">Outro<br>
+                Idade: <input type="text" name="idade"> <br>
+                Cartão de Crédito: <br>
+                <select name="cartão">
+                    <option value="mastercard">MasterCard</option>
+                    <option value="nubank">Nubank</option>
+                    <option value="visa">Visa</option>
+                    <option value="american">American Express</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Dados profissionaiss</legend>
+                <br>
+                Cargo: 
+                <select name ="cargo">
+                    <option value="AnalistaJunior">Analista Júnior</option>
+                    <option value="AnalistaPleno">Analista Pleno</option>
+                    <option value="AnalistaSenior">Analista Senior</option>
+                </select>
+                Dados Pessoais:
+                <div>
+                    <input type="checkbox" id="fumante" name="fumante">
+                    <label for="fumante">Fumante</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Consome" name="Consome">
+                    <label for="Consome">Consome Bebidas alcoólicas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Esportes" name="Esportes">
+                    <label for="Esportes">Pratica Esportes</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Torce" name="Torce">
+                    <label for="Torce">Torce pro América</label>
+                </div>
+                <br>
+                Experiência Profissional <br>
+                <textarea rows="4" cols ="40">DataInicio/DataFim/Empresa/Cargo</textarea>
+            </fieldset>
+            <input type="submit" value="Limpar">
+            <input type="submit" value="Inserir">
+        </form>
+    </body>
+</html>
